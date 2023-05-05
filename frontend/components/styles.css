@@ -1,0 +1,112 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+/* styles.css */
+
+/* Add a max-width for the input elements */
+input,
+textarea {
+  max-width: 100%;
+}
+
+/* Modify the input[type='submit'] styles */
+input[type='submit'] {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  padding: 50px 16px;
+  border: 2px solid transparent; /* Add a transparent border */
+  border-radius: 2px;
+  width: 100%;
+  max-width: 200px;
+  transition: all 0.3s; /* Change the transition to apply to all properties */
+}
+
+/* Modify the hover styles for the submit button */
+input[type='submit']:hover {
+  background-color: #005cb9;
+  border-color: #005cb9; /* Change the border color on hover */
+}
+
+/* Modify the active styles for the submit button */
+input[type='submit']:active {
+  background-color: #004b97;
+  border-color: #004b97; /* Change the border color on active */
+  transform: translateY(2px); /* Add a slight movement on active */
+}
+
+/* Add a max-width for the form */
+form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+  
+  .post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .post:last-child {
+    margin-bottom: 0;
+  }
+  
+  .post__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post__content {
+    font-size: 14px;
+  }
+  
+  .post__delete {
+    background-color: #e74c3c;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
